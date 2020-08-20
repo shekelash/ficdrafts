@@ -5,6 +5,8 @@ title: About
 
 Sidey is a simple and minimalistic jekyll blogging theme.
 
+<a href="/atom.xml" target="_blank" id="rss"><i class="fas fa-rss" aria-hidden="true"></i></a>
+
 ### Features
 
 - Responsive design
