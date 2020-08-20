@@ -1,9 +1,19 @@
+
 links:
-- title: Writing
-  url: /
 - title: About
   url: /about
+- title: Fiction 
+  url: /
+- title: Categories
+  url: /categories
 - title: Search
   url: /search
-- title: Rss
-  url: /atom.xml
+- title: Tags
+  url: /tags
+
+# - title: Tags
+#   url: /tags
+# - title: Contact
+#   url: /contact
+# - title: RSS
+#   url: /atom.xml
