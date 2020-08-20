@@ -1,13 +1,41 @@
 ---
-layout: blog
+layout: default
 tittle: Fiction
 ---
 
 <section class="posts">
 <ul>
 {% for post in site.posts %}
-<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+   <ul>
+      <li>  
+         <a href="{{ site.baseurl | append: post.url }}" class="hover-underline"><b>{{ post.title }}</b></a>
+      </li>
+      <li>  
+          <span class="categories" style="padding-left:1.6em">
+           [   
+           {% for categories in post.categories %}
+           {% capture categories_name %}{{ categories }}{% endcapture %}
+           {{ categories_name }}, 
+           {% endfor %}
+           
+           {% for tag in post.tags %}
+           {% capture tag_name %}{{ tag }}{% endcapture %}
+           {{ tag_name }}, 
+           {% endfor %}
+           ]
+         </span>
+ 
+      <span class="date-nowrap" style="white-space: nowrap">&nbsp;&nbsp;
+          {{ post.date | date: "%m-%d-%Y" }}
+         </span>   
+      </li>
+         <span class="excerpt" style="padding-left:1.6em">
+           {{ post.excerpt }}
+         </span>
+    </ul>
+   <br>
 {% endfor %}
+   
 </ul>
-</section>
 
+</section>
