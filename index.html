@@ -4,8 +4,6 @@ tittle: Fiction
 ---
 
 <section class="posts">
-   
-   啊<i class="fas fa-rss"></i>啊啊
 
 <ul>
 {% for post in site.posts %}
@@ -14,7 +12,7 @@ tittle: Fiction
          <a href="{{ site.baseurl | append: post.url }}" class="hover-underline"><b>{{ post.title }}</b></a>
       </li>
       <li>  
-          <span class="categories" style="padding-left:1.6em">
+          <span class="summary" style="padding-left:1.6em">
            [   
            {% for categories in post.categories %}
            {% capture categories_name %}{{ categories }}{% endcapture %}
