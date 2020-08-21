@@ -16,10 +16,10 @@ layout: default
         <a href="/tags/#{{ tag_name }}">{{ tag_name }}</a>,&nbsp;
       {% endfor %}
     </div>
-      <br>
+    <div style="padding-left:1.6em">
         Published:&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time> &nbsp;&middot;&nbsp;
-        Updated:&nbsp;&nbsp;{{page.Updated}}
-      <br>
+        Updated:&nbsp;&nbsp;{{page.updated}}
+    </div>
     <div style="padding-left:1.6em">
        Note:&nbsp;&nbsp;{{page.description}}
        <b>Summary:</b>&nbsp;&nbsp;{{page.summary}}
