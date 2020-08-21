@@ -1,13 +1,13 @@
 site: Fic Drafts 
 url: shekelash.github.io #你的博客网址，必填
 title: Fic Drafts #你的博客标题，必填
-description: #选填
+description: #介绍，留空则自动引用项目页的介绍
 author: # 这里不能填
   name: shekelash
   email: hello@hello.com
   url: site-url
 permalink: pretty
-github-url: https://github.com/shekelash/shekelash.github.io # 填本主题文件夹的网址，建议
+github-url: https://github.com/shekelash/shekelash.github.io #建议填，本项目网址
 
 baseurl: ""
 
