@@ -18,10 +18,12 @@ layout: default
         <a href="/tags/#{{ tag_name }}">{{ tag_name }}</a>,&nbsp;
       {% endfor %}
     </div>
-    <span style="padding-left:1.6em">
+    <div style="padding-left:1.6em">
        <b>Summary:</b>&nbsp;&nbsp;{{page.excerpt}}
     </span>
-  
+    <div style="padding-left:1.6em">
+       <b>note:</b>&nbsp;&nbsp;{{page.description}}
+    </span>
   <br>
   
   {{ content }}
