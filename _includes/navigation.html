@@ -15,16 +15,6 @@
          </a>
        </li>
     {% endfor %}
-     <li>
-     <a href="{{site.github-url}}/tree/master/_posts/" target="_blank" id="post">
-            {% if item.url == page.url %} 
-               class="active"
-            {% else %}
-               class="hvr-sweep-to-left"
-            {% endif %}>
-           Post!</a>
-     </li>
-
    <li>
      {% include social.html %}
    </li>
