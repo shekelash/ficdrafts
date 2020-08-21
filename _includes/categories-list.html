@@ -11,7 +11,7 @@
     {% assign categories = categories_pair | split:'|' | last %}
     <a href="#{{ categories | slugify }}" class="tag-link">
       <span class="tag-name">{{ categories }}</span>
-      <span class="tag-count">[{{ site.categories[category] | size }}]</span>
+      <span class="tag-count">[{{ site.categories[categories] | size }}]</span>
     </a>,&nbsp;&nbsp;
     {% endfor %}
   </div>
