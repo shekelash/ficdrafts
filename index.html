@@ -25,14 +25,15 @@ tittle: Fiction
            {% endfor %}
            ]
          </span>
- 
-      <span class="date-nowrap" style="white-space: nowrap">&nbsp;&nbsp;
+         <span class="date-nowrap" style="white-space: nowrap">&nbsp;&nbsp;
           {{ post.date | date: "%m-%d-%Y" }}
          </span>   
       </li>
+      <li>
          <span class="excerpt" style="padding-left:1.6em">
            {{ post.excerpt }}
          </span>
+      </li>
     </ul>
    <br>
 {% endfor %}
