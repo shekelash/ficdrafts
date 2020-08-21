@@ -6,9 +6,9 @@ social:
   - {icon: 'heart', type: "solid", link: "https://archiveofourown.org/users/shekelash"}
   - {icon: 'mastodon', type: "brand", link: 'https://cmx-im.work/@niimura'}
 
-#  - {icon: 'github', type: "brand", link: 'https://github.com/shekelash/shekelash.github.io/tree/master/_posts'}
+  - {icon: 'github', type: "brand", link: '{{site.github-url}}/tree/master/_posts'}
 #  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
 #  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/PandaSekh'}
 #  - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/alessio-franceschi/'}
-#  - {icon: 'rss', type: "solid", link: "/atom.xml"}
+  - {icon: 'rss', type: "solid", link: "/atom.xml"}
 #  - {icon: 'search', type: "old", link: "https://shekelash.github.io/search"}
