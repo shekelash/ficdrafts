@@ -32,9 +32,9 @@ tittle: Fiction
       <li>
          <span class="excerpt" style="padding-left:1.6em">
           {% if post.excerpt %}
-            {{post.excerpt | strip_html | truncatewords:50}}
+            {{post.excerpt | strip_html | truncatewords:3}}
           {% else %}
-            {{ post.content | strip_html | truncatewords:50 }}
+            {{ post.content | strip_html | truncatewords:3 }}
           {% endif %}
          </span>
       </li>
