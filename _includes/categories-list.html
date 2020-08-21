@@ -7,10 +7,10 @@
 
 <div id="tags-page">
   <div class="tags-list" style="padding-left:1.6em">
-    {% for category_pair in category_words %}
-    {% assign category = category_pair | split:'|' | last %}
-    <a href="#{{ category | slugify }}" class="tag-link">
-      <span class="tag-name">{{ category }}</span>
+    {% for categories_pair in categories_words %}
+    {% assign categories = categories_pair | split:'|' | last %}
+    <a href="#{{ categories | slugify }}" class="tag-link">
+      <span class="tag-name">{{ categories }}</span>
       <span class="tag-count">[{{ site.categories[category] | size }}]</span>
     </a>,&nbsp;&nbsp;
     {% endfor %}
