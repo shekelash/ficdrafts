@@ -3,6 +3,11 @@ layout: page
 title: About
 ---
 
+
+<section class="post">
+
+
+
 Sidey is a simple and minimalistic jekyll blogging theme.
 
 ### Features
@@ -26,3 +31,5 @@ Sidey is a simple and minimalistic jekyll blogging theme.
 ### Screenshot
 
 ![Screenshot](screenshot.png)
+
+</section>
