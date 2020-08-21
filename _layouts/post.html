@@ -6,22 +6,22 @@ layout: default
   
   <h2>{{ page.title }}</h2>
     <div style="padding-left:1.6em">
-      Categories:&nbsp;&nbsp;{% for categories in page.categories %}
+      Categories:&nbsp;{% for categories in page.categories %}
         {% capture categories_name %}{{ categories }}{% endcapture %}
         <a href="/categories#{{ categories_name }}">{{ categories_name }}</a>,&nbsp;
       {% endfor %}   
       <br>
-      Tags:&nbsp;&nbsp;{% for tag in page.tags %}
+      Tags:&nbsp;{% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
         <a href="/tags#{{ tag_name }}">{{ tag_name }}</a>,&nbsp;
       {% endfor %}
     </div>
     <div style="padding-left:1.6em">
-        Published:&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.updated}}
+        Published:&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+        &nbsp;&nbsp;&nbsp;{{page.updated}}
     </div>
     <div style="padding-left:1.6em">
-       Notes:&nbsp;&nbsp;{{page.description}}
+       Notes:&nbsp;{{page.description}}
        <br>
        {{page.excerpt}}
     </div>
