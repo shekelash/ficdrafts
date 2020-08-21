@@ -28,9 +28,9 @@
           <li>
               <a href="{{ post.url | relative_url }}">
                 {{ post.title }}&nbsp;
-                [{% for category in post.categories -%}
-                   {% capture category_name %}{{ category }}{% endcapture %}
-                   {{ category_name }}, 
+                [{% for tag in post.tags -%}
+                   {% capture tag_name %}{{ tag }}{% endcapture %}
+                   {{ tag_name }}, 
                 {%- endfor %}]
               </a>
           </li>
