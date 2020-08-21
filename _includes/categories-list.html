@@ -10,7 +10,7 @@
     {% for categories_pair in categories_words %}
     {% assign categories = categories_pair | split:'|' | last %}
     <li>
-    <a href="#{{ categories | slugize }}" class="categories-link">
+    <a href="#{{ categories | slugify }}" class="categories-link">
       <span class="categories-name">{{ categories }}</span>
       <span class="categories-count">[{{ site.categories[categories] | size }}]</span>
     </a>
@@ -24,11 +24,11 @@
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
+    <div id="#{{ category_name | slugify }}"></div>
     <p></p>
 
     <h4 class="archive-cat">{{ category_name }}</h4>
-    <a name="{{ category_name | slugize }}"></a>
+    <a name="{{ category_name | slugify }}"></a>
     {% for post in site.categories[category_name] %}
       <ul>
       <li>
