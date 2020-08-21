@@ -5,7 +5,7 @@ description: Generating comments on static sites with Staticman
 excerpt: Generating comments on static sites with Staticman.
 tags: [jekyll, coding]
 categories: [a, s, d, f, g, h, g]
-updated: updated&#58;2020-08-20
+updated: Updated&#58;&nbsp;&nbsp;2020-08-20 #日期部分替换
 ---
 
 Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.
