@@ -6,9 +6,6 @@ layout: default
   
   <h2>{{ page.title }}</h2>
     <div style="padding-left:1.6em">
-        Published:&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time> &nbsp;&middot;&nbsp;
-        Updated:&nbsp;&nbsp;{{ page.Updated }}
-      <br>
       Categories:&nbsp;&nbsp;{% for categories in page.categories %}
         {% capture categories_name %}{{ categories }}{% endcapture %}
         <a href="/categories/#{{ categories_name }}">{{ categories_name }}</a>,&nbsp;
@@ -19,6 +16,10 @@ layout: default
         <a href="/tags/#{{ tag_name }}">{{ tag_name }}</a>,&nbsp;
       {% endfor %}
     </div>
+      <br>
+        Published:&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time> &nbsp;&middot;&nbsp;
+        Updated:&nbsp;&nbsp;{{page.Updated}}
+      <br>
     <div style="padding-left:1.6em">
        Note:&nbsp;&nbsp;{{page.description}}
        <b>Summary:</b>&nbsp;&nbsp;{{page.summary}}
