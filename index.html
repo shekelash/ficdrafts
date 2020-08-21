@@ -12,7 +12,7 @@ tittle: Fiction
          <a href="{{ site.baseurl | append: post.url }}" class="hover-underline"><b>{{ post.title }}</b></a>
       </li>
       <li>  
-          <span class="summary" style="padding-left:1.6em">
+          <span class="excerpt" style="padding-left:1.6em">
            [   
            {% for categories in post.categories %}
            {% capture categories_name %}{{ categories }}{% endcapture %}
@@ -31,7 +31,7 @@ tittle: Fiction
       </li>
       <li>
          <span class="excerpt" style="padding-left:1.6em">
-           {{ post.summary }}
+           {{ page.excerpt }}
          </span>
       </li>
     </ul>
