@@ -30,9 +30,9 @@ tittle: Fiction
          </span>   
       </li>
       <li>
-         <span class="summray" style="padding-left:1.6em">
-          {% if post.summray %}
-            {{post.summray | strip_html | truncatewords:1}}
+         <span class="summary" style="padding-left:1.6em">
+          {% if post.summary %}
+            {{post.summary | strip_html | truncatewords:1}}
           {% else %}
             {{ post.content | strip_html | truncatewords:1 }}
           {% endif %}
