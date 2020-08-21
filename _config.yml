@@ -7,7 +7,6 @@ author: # 这里不能填
   email: hello@hello.com
   url: site-url
 permalink: pretty
-github-url: https://github.com/shekelash/shekelash.github.io #建议填，本项目网址
 
 baseurl: ""
 
