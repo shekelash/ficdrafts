@@ -4,6 +4,7 @@ title: About
 ---
 
 <h2>{{ site.title }}</h2>
+{{ site.description }}
 
 放飞自我的小说草稿箱。
 
