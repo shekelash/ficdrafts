@@ -9,7 +9,7 @@
   <div class="tags-list" style="padding-left:1.6em">
     {% for tag_pair in tag_words %}
     {% assign tag = tag_pair | split:'|' | last %}
-    <a href="#{{ tag | slugize }}" class="tag-link">
+    <a href="#{{ tag | slugify }}" class="tag-link">
       <span class="tag-name">{{ tag }}</span>
       <span class="tag-count">
         [{{ site.tags[tag] | size }}]
@@ -23,11 +23,11 @@
 {% for tag in site.tags %}
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <div id="#{{ tag_name | slugize }}"></div>
+    <div id="#{{ tag_name | slugify }}"></div>
     <p></p>
    <h4 class="archive-cat">{{ tag_name }}</h4>
 
-    <a name="{{ tag_name | slugize }}"></a>
+    <a name="{{ tag_name | slugify }}"></a>
     {% for post in site.tags[tag_name] %}
       <ul>
       <li>
