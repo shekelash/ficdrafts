@@ -17,8 +17,8 @@ layout: default
       {% endfor %}
     </div>
     <div style="padding-left:1.6em">
-        Published:&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        Updated:&nbsp;&nbsp;{{page.updated}}
+        Published:&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.updated}}
     </div>
     <div style="padding-left:1.6em">
        Notes:&nbsp;&nbsp;{{page.description}}
