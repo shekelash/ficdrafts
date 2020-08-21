@@ -19,8 +19,7 @@ title: About
 ### Credits
 
   静态网页生成器：<a target="_blank" href="https://github.com/jekyll/jekyll">jekyll</a>，
-  搜索脚本：<a target="_blank" href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a>
-
+  搜索脚本：<a target="_blank" href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a>  
   主题缝合自：<a target="_blank" href="https://github.com/xz-777/H-Plus">H-Plus</a>，
   <a target="_blank" href="https://github.com/ronv/sidey">sidey</a>，
   <a target="_blank" href="https://github.com/fongandrew/hydeout">hydeout</a>，
