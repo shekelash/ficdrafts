@@ -17,12 +17,14 @@ layout: default
       {% endfor %}
       <br>
       Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-        &nbsp;&nbsp;&nbsp;{{page.updated}}
+        &nbsp;&nbsp;&nbsp;
+      {% if page.updated %}
+         {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }} {{page.updated}}
+      {% endif %}
       <br>
       <b>Summary:</b> {{page.summary}}
       <br>
       <b>Notes:</b> {{page.description}}
-       
     </div>
   <br>
   
