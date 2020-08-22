@@ -6,8 +6,6 @@ title: About
 <h2>{{ site.title }}</h2>
 {{ site.description }}
 
-放飞自我的小说草稿箱。
-
 目前主船可能含第三方关系的盾铁。也会放其他写过的七七八八，包括原创或BG。
 
 ### Warning
