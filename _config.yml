@@ -1,9 +1,9 @@
 site: Fic Drafts 
 url: shekelash.github.io #你的博客网址，必填
 title: Fic Drafts #你的博客标题，必填
-description: #介绍，留空则自动引用项目页的介绍
-author: # 这里不能填
-  name: shekelash
+description: #博客介绍，留空则自动引用项目页的介绍
+author: #别填
+  name: ShekelAsh #用户名
   email: hello@hello.com
   url: site-url
 permalink: pretty
