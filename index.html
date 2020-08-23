@@ -16,7 +16,7 @@ tittle: Fiction
            [   
            {% for categories in post.categories %}
            {% capture categories_name %}{{ categories }}{% endcapture %}
-           <a href="/categories#{{ categories_name }}">{{ categories_name }}</a>,&nbsp;
+           <a href="/categories#{{ categories | slugify }}">{{ categories_name }}</a>,&nbsp;
            {% endfor %}
            
            {% for tag in post.tags %}
