@@ -5,11 +5,14 @@ title: License
 
 MIT License
 
+Copyright (c) 2008-present Tom Preston-Werner and Jekyll contributors
+Copyright (c) 2015 Christian Fei
 Copyright (c) 2020 Ronalds Vilciņš  
 Copyright (c) 2020 Shekel Ash  
 Copyright (c) 2017 Andrew Fong.  
 Copyright (c) 2020 PandaSekh  
 Copyright (c) 2020 John Long  
+Copyright (c) IanLunn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
