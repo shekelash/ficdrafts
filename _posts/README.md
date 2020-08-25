@@ -6,7 +6,7 @@
 ---
 layout: post
 title: 名称
-summary: : 简介 #不填则自动摘取文章第一段
+summary: 简介 #不填则自动摘取文章第一段
 description: 说明
 tags: [连载/完结, AU/Canon, 现代/历史/幻想（原创用）, G/T/M/E, 多方关系, 角色死亡, 暴力, 非自愿, 未成年]
 categories: [Steve Rogers/Tony Stark, 原创]
