@@ -32,3 +32,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+### Credits
+
+  静态网页生成器：<a target="_blank" href="https://github.com/jekyll/jekyll">jekyll</a>  
+  搜索脚本：<a target="_blank" href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a>，
+  图标：<a target="_blank" href="https://fontawesome.com/">font Awesome</a>，
+  按钮特效：<a target="_blank" href="https://ianlunn.github.io/Hover/">Hover.css</a>  
+  主题缝合自：<a target="_blank" href="https://github.com/ronv/sidey">sidey</a>，
+  <a target="_blank" href="https://github.com/fongandrew/hydeout">hydeout</a>，
+  <a target="_blank" href="https://github.com/PandaSekh/Jekyll-YAMT">Jekyll-YAMT</a>，
+  <a target="_blank" href="https://github.com/xz-777/H-Plus">H-Plus</a>
