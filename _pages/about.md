@@ -19,7 +19,5 @@ title: About
 
 <br>
 
-<br>
-
 <!--编辑结束-->
 <div>{% include copyright.html %}</div>
