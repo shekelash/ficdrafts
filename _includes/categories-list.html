@@ -12,7 +12,7 @@
     <a href="#{{ categories | slugify }}" class="tag-link"  style="padding-left:1.6em">
       <span class="tag-name">{{ categories }}</span>
       <span class="tag-count">[{{ site.categories[categories] | size }}]</span>
-    </a>
+    </a>,&nbsp;&nbsp;
     </div>
     {% endfor %}
   </ul>
