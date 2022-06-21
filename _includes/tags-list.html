@@ -30,13 +30,13 @@
                 {{ post.title }}&nbsp;
                 [{% for categories in post.categories -%}
                    {% capture categories_name %}{{ categories }}{% endcapture %}
-                   {{ categories_name }}, 
+                   {{ categories_name }}
                 {%- endfor %}
 
                 {% for tag in post.tags -%}
                    {% capture tag_name %}{{ tag }}{% endcapture %}
                    {{ tag_name }}, 
-                {%- endfor %}]
+                {%- endfor %}&nbsp;]
               </a>
           </li>
         {% endfor %}
