@@ -5,7 +5,7 @@ social:
   - {icon: 'evernote', type: "brand", link: 'https://www.evernote.com/pub/vin-tin/readingnotes'}
   - {icon: 'heart', type: "solid", link: "https://archiveofourown.org/users/shekelash"}
   - {icon: 'mastodon', type: "brand", link: 'https://cmx-im.work/@niimura'}
-  - {icon: 'github', type: "brand", link: 'https://github.com/shekelash/shekelash.github.io/'}
+  - {icon: 'github', type: "brand", link: 'https://github.com/shekelash/jekyll-theme-archive/'}
   - {icon: 'rss', type: "solid", link: "/atom.xml"}
 #  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
 #  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/PandaSekh'}
