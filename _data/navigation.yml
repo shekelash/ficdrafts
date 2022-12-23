@@ -1,6 +1,6 @@
 links:
 - title: About
-  url: {{ site.baseurl }}/about
+  url:/ficdrafts/about
 - title: Fiction
   url: /ficdrafts
 - title: Categories
