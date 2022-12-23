@@ -8,12 +8,12 @@ layout: default
     <div style="padding-left:1.6em">
       Categories: {% for categories in page.categories %}
         {% capture categories_name %}{{ categories }}{% endcapture %}
-        <a href="{{ site.baseurl | append: post.url }}/categories#{{ categories_name  | slugify }}">{{ categories_name }}</a>,
+        <a href="{{ site.baseurl }}/categories#{{ categories_name  | slugify }}">{{ categories_name }}</a>,
       {% endfor %}   
       <br>
       Tags: {% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a href="{{ site.baseurl | append: post.url }}/tags#{{ tag_name  | slugify }}">{{ tag_name }}</a>,
+        <a href="{{ site.baseurl }}/tags#{{ tag_name  | slugify }}">{{ tag_name }}</a>,
       {% endfor %}
       <br>
       Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
