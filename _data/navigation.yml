@@ -1,12 +1,12 @@
 links:
 - title: About
-  url: /ficdraft/about
+  url: /ficdrafts/about
 - title: Fiction
-  url: /ficdraft/
+  url: /ficdrafts/
 - title: Categories
-  url: /ficdraft/categories
+  url: /ficdrafts/categories
 - title: Search
-  url: /ficdraft/search
+  url: /ficdrafts/search
 - title: Bet Hayyim
   url: https://shekelash.github.io/quartz/
 
