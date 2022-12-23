@@ -1,6 +1,6 @@
 links:
 - title: About
-  url: {{ site.baseurl }}/about
+  url: {{ site.baseurl | append: post.url }}/about
 - title: Fiction
   url: {{ site.baseurl | append: post.url }}/
 - title: Categories
