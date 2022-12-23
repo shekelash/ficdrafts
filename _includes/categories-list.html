@@ -28,7 +28,7 @@
       <ul class="posts-list">
         {% for post in site.categories[categories] %}
           <li>
-              <a href="{{ site.baseurl | append: post.url }}/{{ post.url | relative_url }}" style="text-decoration:none;">
+              <a href="{{ post.url | relative_url }}" style="text-decoration:none;">
                 {{ post.title }}&nbsp;
                 [{% for categories in post.categories -%}
                    {% capture categories_name %}{{ categories }}{% endcapture %}
