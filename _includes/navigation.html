@@ -5,7 +5,7 @@
 <ul>
    {% for item in site.data.navigation.links %}
       <li>
-         <a href="{{ site.baseurl }}{{ item.url }}"
+         <a href="{{ item.url }}"
             {% if item.url == page.url %} 
                class="botton-hvr" #不要效果的话改成"active"
             {% else %}
