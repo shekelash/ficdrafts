@@ -12,10 +12,11 @@
     <a href="{{ site.baseurl | append: post.url }}/categories#{{ categories | slugify }}" class="tag-link"  style="padding-left:1em">
       <span class="tag-name">{{ categories }}</span>
       <span class="tag-count">[{{ site.categories[categories] | size }}]</span>
-    </a>,
+    </a>
+    </div>
     {% endfor %}
-  </div>
-<br>
+  </ul>
+</div>
 
   <div class="posts-by-tag">
     {% for categories_pair in categories_words %}
