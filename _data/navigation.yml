@@ -1,16 +1,16 @@
 links:
 - title: About
-  url: {{ site.baseurl | append: post.url }}/about
+  url: /ficdrafts/about
 - title: Fiction
-  url: {{ site.baseurl | append: post.url }}/
+  url: /ficdrafts
 - title: Categories
-  url: {{ site.baseurl | append: post.url }}/categories
+  url: /ficdrafts/categories
 - title: Search
-  url: {{ site.baseurl | append: post.url }}/search
-- title: B3t Hayyim
+  url: /ficdrafts/search
+- title: Bet Hayyim
   url: https://shekelash.github.io/quartz/
 
 # - title: RSS
-#   url: {{ site.baseurl | append: post.url }}/atom.xml
+#   url: /ficdrafts/atom.xml
 # - title: Tags
-#  url: {{ site.baseurl | append: post.url }}/tags
+#  url: /ficdrafts/tags
