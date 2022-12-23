@@ -8,7 +8,7 @@ links:
 - title: Search
   url: {{ site.baseurl | append: post.url }}/search
 - title: Bet Hayyim
-  url: https://shekelash.github.io/quartz/1
+  url: https://shekelash.github.io/quartz1/
 
 # - title: RSS
 #   url: {{ site.baseurl | append: post.url }}/atom.xml
