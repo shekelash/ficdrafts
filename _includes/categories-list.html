@@ -9,7 +9,7 @@
   <div class="tags-list">
     {% for categories_pair in categories_words %}
     {% assign categories = categories_pair | split:'|' | last %}
-    <a href="#{{ categories | slugify }}" class="tag-link"  style="padding-left:1.6em">
+    <a href="{{ site.baseurl | append: post.url }}/#{{ categories | slugify }}" class="tag-link"  style="padding-left:1.6em">
       <span class="tag-name">{{ categories }}</span>
       <span class="tag-count">[{{ site.categories[categories] | size }}]</span>
     </a>
@@ -28,7 +28,7 @@
       <ul class="posts-list">
         {% for post in site.categories[categories] %}
           <li>
-              <a href="{{ post.url | relative_url }}" style="text-decoration:none;">
+              <a href="{{ site.baseurl | append: post.url }}/{{ post.url | relative_url }}" style="text-decoration:none;">
                 {{ post.title }}&nbsp;
                 [{% for categories in post.categories -%}
                    {% capture categories_name %}{{ categories }}{% endcapture %}
