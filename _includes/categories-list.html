@@ -9,10 +9,10 @@
   <div class="tags-list">
     {% for categories_pair in categories_words %}
     {% assign categories = categories_pair | split:'|' | last %}
-    <a href="{{ site.baseurl | append: post.url }}/categories#{{ categories | slugify }}" class="tag-link"  style="padding-left:1.6em">
+    <a href="{{ site.baseurl | append: post.url }}/categories#{{ categories | slugify }}" class="tag-link"  style="padding-left:1em">
       <span class="tag-name">{{ categories }}</span>
       <span class="tag-count">[{{ site.categories[categories] | size }}]</span>
-    </a>,&nbsp;&nbsp;
+    </a>,
     {% endfor %}
   </div>
 <br>
