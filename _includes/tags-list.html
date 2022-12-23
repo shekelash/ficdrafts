@@ -13,8 +13,10 @@
       <span class="tag-name">{{ tag }}</span>
       <span class="tag-count">[{{ site.tags[tag] | size }}]</span>
     </a>,&nbsp;&nbsp;
+    </div>
     {% endfor %}
-  </div>
+  </ul>
+</div>
 
  <br>
 
@@ -28,9 +30,9 @@
           <li>
               <a href="{{ post.url | relative_url }}" style="text-decoration:none;">
                 {{ post.title }}&nbsp;
-                [{% for categories in post.categories -%}
-                   {% capture categories_name %}{{ categories }}{% endcapture %}
-                   {{ categories_name }}
+                [{% for categories in post.tags -%}
+                   {% capture tags_name %}{{ tags }}{% endcapture %}
+                   {{ tags_name }}
                 {%- endfor %}
 
                 {% for tag in post.tags -%}
