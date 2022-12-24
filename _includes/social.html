@@ -1,6 +1,6 @@
 {% for item in site.data.social.social %}
   {% if item.type == "brand"%}
-    <a href="{{ item.link }}" target="_blank" id="{{item.icon}}"><i class="fa-{{item.type}} fa-{{item.icon}}" aria-hidden="true"></i></a>
+    <a href="{{ item.link }}" target="_blank" id="{{item.icon}}"><i class="fab fa-{{item.icon}}" aria-hidden="true"></i></a>
   {% endif %}
   {% if item.type == "solid"%}
     <a href="{{ item.link }}" target="_blank" id="{{item.icon}}"><i class="fas fa-{{item.icon}}" aria-hidden="true"></i></a>
