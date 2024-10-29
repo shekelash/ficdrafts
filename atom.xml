@@ -26,3 +26,8 @@ layout: null
  {% endfor %}
 
 </feed>
+
+<follow_challenge>
+    <feedId>74061190640246784</feedId>
+    <userId>72639643876626432</userId>
+</follow_challenge>
