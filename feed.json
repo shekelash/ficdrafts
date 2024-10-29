@@ -58,11 +58,3 @@ layout: null
     {% endfor %}
     ]
 }
-
-
-{
-  "follow_challenge": {
-    "feed_id": "74061190640246784",
-    "user_id": "72639643876626432"
-  }
-}
